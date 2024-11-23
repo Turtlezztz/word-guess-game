@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="Black">
+    <option name="sdkName" value="Python 3.13 (wordle)" />
+  </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="cf1ad003-156c-4952-bad1-19668284d64c" />
   </component>
