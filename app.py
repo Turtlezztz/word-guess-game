@@ -1,9 +1,9 @@
 import random
-from itertools import repeat
-
 import nltk
 
-nltk.download('words')
+print("Downloading the words corpus from nltk...")
+nltk.download('words', quiet=True)
+print("Done!")
 
 
 def get_random_word():
