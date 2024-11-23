@@ -17,7 +17,12 @@ def get_random_word():
 
     guesscount = 1
     while guesscount < 5:
-        guess = input(f"Take your {guesscount} guess!\n -> ")
+        while True:
+            guess = input(f"Take your {guesscount} guess!\n -> ")
+            if len(guess) != 5:
+                print("Please enter a 5-letter word.")
+            else:
+                break
         if guess == random_word:
             print("You guessed it right!")
             win = True
