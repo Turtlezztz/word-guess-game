@@ -41,7 +41,7 @@ def get_random_word():
             guesscount += 1
             print("Number of guesses:", guesscount)
             if guesscount == 5:
-                print("You lost! The word was:", random_word)
+                print("You lost! The word was: ", random_word)
                 win = False
 
 
